@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Dhule Tourism </title>
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+        <!-- Font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <!-- custom css file link -->
+        <link rel="stylesheet" href="style.css">
+    <h/ead>
+    <body>
+        <!-- Header section starts -->
+        <header>
+
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <a href="#" class="logo"><span>T</span>ravel</a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#packages">Packages</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>>
+        </header>
+        <!-- Header section ends -->
+
+        <!--login form container -->
+        <div class="login-form-container">
+            
+            <i class="fas fa-times" id="form-close"></i>
+
+            <form action="">
+                <h3>login</h3>
+                <input type="email" class="box" placeholder="Enter your mail">
+                <input type="password" class="box" placeholder="Enter your password">
+                <input type="submit" value="login now" class="btn">
+                <input type="checkbox" id="remember">
+                <label for="remember">remember me</label>
+                <p>forget password?<a href="#">click here</a></p>
+                <p>don't have an account?<a href="#">register now</a></p>
+            </form>
+
+        </div>
+
+        <!-- Home section starts -->
+
+        <section class="home" id="home">
+            
+            <div class="content">
+                <h3>Adventure is Worthwhile</h3>
+                <p>Discover new places with us, Adventure Awaits</p>
+                <a href="#" class="btn">Discover More</a>
+            </div>
+
+            <div class="controls">
+                <span class="vid-btn active" data-src="Images/Rivers___Awesome___New_nature_30_Seconds_Whatsapp_Status_Videos_2021___Natural_Sounds___Beautiful_!!(720p).mp4"></span>
+                <span class="vid-btn" data-src="Images/Mix Nature.mp4"></span>
+                <span class="vid-btn" data-src="Images/Montana_Winter_Sunset_-_15_Second_Drone_Video_[HD](480p).mp4"></span>
+                <span class="vid-btn" data-src="Images/Laling.mp4"></span>
+                <span class="vid-btn" data-src="Images/Nature_Video_Status_ll_Nature_WhatsApp_Status_ll_Nature_Full_Screen_Status_ll_2021(480p).mp4"></span>
+            </div>
+
+            <div class="video-container">
+                <video src="Images/Rivers___Awesome___New_nature_30_Seconds_Whatsapp_Status_Videos_2021___Natural_Sounds___Beautiful_!!(720p).mp4" id="video-slider" loop autoplay muted></video>
+            </div>       
+        </section>
+
+        <!-- Home section ends -->
+
+        <!-- Book Section Starts -->
+        <section class="book" id="book">
+            <h1 class="heading">
+                <span>B</span>
+                <span>O</span>
+                <span>O</span>
+                <span>K</span>
+                <span class="space"></span>
+                <span>N</span>
+                <span>O</span>
+                <span>W</span>
+            </h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="Images/Tourism.png" alt="">
+
+                </div>
+
+                <form action="connection/book_now.php" method="post">
+
+                    <div class="inputBox">
+                        <h3>where to</h3>
+                        <input type="text" placeholder="place name" name="place_name" required>
+                    </div>
+
+                    <div class="inputBox">
+                        <h3>how many</h3>
+                        <input type="number" placeholder="number of guests" name="number_of_guests" required>
+                    </div>
+
+                    <div class="inputBox">
+                        <h3>arrivals</h3>
+                        <input type="date" name="arrivals" required>
+                    </div>
+
+                    <div class="inputBox">
+                        <h3>leaving</h3>
+                        <input type="date" name="leaving" required>
+                    </div>
+                    <input type="submit" class="btn" value="book now">
+                </form>
+            </div>
+        </section>
+
+        <!-- Book Section Ends -->
+
+        <!-- Packages section starts -->
+
+        <section class="packages" id="packages">
+
+            <h1 class="heading">
+                <span>P</span>
+                <span>A</span>
+                <span>C</span>
+                <span>K</span>
+                <span>A</span>
+                <span>G</span>
+                <span>E</span>
+                <span>S</span>
+            </h1>
+            
+            <div class="box-container">
+                
+                <div class="box">
+                    <img src="Images/Mumbai.jfif" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Mumbai </h3>
+                        <P>2 Days & 3 Nights MUmbai Package.</P>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> Rs.20,000 /-     <span> Rs.30,000 /-</span> </div>
+                        <a href="#" class="btn"> Book Now </a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="Images/Sydney.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Sydney </h3>
+                        <P>8 Days & 7 Nights Sydney & Adelade Package.</P>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> Rs.160,000 /-     <span> Rs.200,000 /-</span> </div>
+                        <a href="#" class="btn"> Book Now </a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="Images/Hawaii.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Hawaii </h3>
+                        <P>5 Days & Nights Hawaii Package.</P>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price"> Rs.120,000 /-     <span> Rs.150,000 /-</span> </div>
+                        <a href="#" class="btn"> Book Now </a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="Images/Paris.jfif" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Paris </h3>
+                        <P>1 Month Europe Trip</P>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> Rs.180,000 /-     <span> Rs.220,000 /-</span> </div>
+                        <a href="#" class="btn"> Book Now </a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="Images/Egypt.jfif" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Egypt </h3>
+                        <P>15 Days Egypt Package.</P>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> Rs.150,000 /-     <span> Rs.180,000 /-</span> </div>
+                        <a href="#" class="btn"> Book Now </a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="Images/London.jfif" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> London </h3>
+                        <P>10 Days London City Trip</P>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> Rs.250,000 /-     <span> Rs.200,000 /- </span> </div>
+                        <a href="#" class="btn"> Book Now </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Packages section starts -->
+
+        <!-- Services Section Starts -->
+
+        <section class="services" id="services">
+            
+            <h1 class="heading">
+                <span>S</span>
+                <span>E</span>
+                <span>R</span>
+                <span>V</span>
+                <span>I</span>
+                <span>C</span>
+                <span>E</span>
+                <span>S</span>
+            </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable Hotels</h3>
+                <p>Book Cheap Hotels Online. No reservation costs. Great rates. 
+                    List Your Property. Become An Affiliate. Register Online. Sign Up For Deals. 
+                    Highlights: Press Center Available, Customer Service Available.!</p>    
+                </div>
+                <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food And Drinks</h3>
+                <p>Food is any substance consumed to provide nutritional support for an organism.
+                     A drink or beverage is a liquid intended for human consumption!</p>    
+                </div>
+                <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safety Guides</h3>
+                <p>Provides advice and guidance on health and safety regulations and inspections.
+                     ... For the most up-to-date news and guidance!</p>    
+                </div>
+                <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Around The World</h3>
+                <p>Around The World Travel and Tours Pvt 
+                    Ltd was incorporated On 22nd JAN 1990 with the aim of serving the Traveling Public.!</p>    
+                </div>
+                <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest Travel</h3>
+                <p>Light is fast. In fact, it is the fastest thing that exists,
+                     and a law of the universe is that nothing can move faster than light!</p>    
+                </div>
+                <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventure</h3>
+                <p>An adventure is an exciting experience or undertaking that is typically bold, sometimes risky.
+                     ... Adventures may be activities with some potential for physical!</p>    
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section Ends -->
+
+        <!-- Gallery Section Starts -->
+
+        <section class="gallery" id="gallery">
+
+            <h1 class="heading">
+                <span>g</span>
+                <span>a</span>
+                <span>l</span>
+                <span>l</span>
+                <span>I</span>
+                <span>r</span>
+                <span>y</span>
+            </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="Images/3 Rarely Visited.jfif" alt="">
+                    <div class="content">
+                        <h3>Amazing Places</h3>
+                        <p>Lower Kanchula Lake And it is also known as Shangrila Lake</p>
+                        <a href="#" class="btn">See More...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/7 Trendiest Places.png" alt="">
+                    <div class="content">
+                        <h3>Amazing Places</h3>
+                        <p>Beautiful Nature Places</p>
+                        <a href="#" class="btn">See More...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/Dubai hotel.jfif" alt="">
+                    <div class="content">
+                        <h3>Amazing Places</h3>
+                        <p>Atlantis the Palm 5 Star Hotel of Dubai</p>
+                        <a href="#" class="btn">See More...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/Jaipur Place.jfif" alt="">
+                    <div class="content">
+                        <h3>Amazing Places</h3>
+                        <p>Shri Galta Peeth, Galav Ashram Jaipur</p>
+                        <a href="#" class="btn">See More...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/London eye.jpg" alt="">
+                    <div class="content">
+                        <h3>Amazing Places</h3>
+                        <p>Awesome view of London Bridge & London Eye</p>
+                        <a href="#" class="btn">See More...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/Taj Mahal.jfif" alt="">
+                    <div class="content">
+                        <h3>Amazing Places</h3>
+                        <p>The Sign of Love & The one of the Seven Wonders Taj Mahal Situated in Agra</p>
+                        <a href="#" class="btn">See More...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/waterfall.jfif" alt="">
+                    <div class="content">
+                        <h3>Amazing Places</h3>
+                        <p>The Niagara Waterfall of River Niagara River Situated In North America</p>
+                        <a href="#" class="btn">See More...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/round building.jfif" alt="">
+                    <div class="content">
+                        <h3>Amazing Places</h3>
+                        <p>Colosseum is an oval amphitheatre in the centre of city of rome</p>
+                        <a href="#" class="btn">See More...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/Mysoor Palace.jfif" alt="">
+                    <div class="content">
+                        <h3>Amazing Places</h3>
+                        <p>Mysore Palace, a historical place situated in Mysore</p>
+                        <a href="#" class="btn">See More...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/Lotus House.jpeg" alt="">
+                    <div class="content">
+                        <h3>Amazing Places</h3>
+                        <p>Sydney Opera House is a multi-venue performingarts centre in Sydney</p>
+                        <a href="#" class="btn">See More...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/Mumbai.jfif" alt="">
+                    <div class="content">
+                        <h3>Amazing Places</h3>
+                        <p>Beautiful view of Gate way of India & Hotel Taj</p>
+                        <a href="#" class="btn">See More...</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+
+        <!-- Gallery Section Starts -->
+
+        <!-- Review Section Starts -->
+
+        <section class="review" id="review">
+
+            <h1 class="heading">
+                <span>r</span>
+                <span>e</span>
+                <span>v</span>
+                <span>i</span>
+                <span>e</span>
+                <span>w</span>
+            </h1>
+
+            <div class="swiper review-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Images/Rohit Sharma.jfif" alt="">
+                            <h3>Rohit Sharma</h3>
+                            <p>Everything was perfect, and I would have to say it was the vacation of a life time. Thank you so very much for having arranged the magnificent trip we took!!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Images/Ankush Chaudhari.jfif" alt="">
+                            <h3>Ankush Chaudhari</h3>
+                            <p>We are seriously considering your Amazon adventure next year, it looks great. Thank you so very much for having arranged the magnificent trip we took!!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Images/Akshay Kumar.jfif" alt="">
+                            <h3>Akshay Kumar</h3>
+                            <p>It was a very memorable trip and one that we would suggest to other people. Amerika Venture did a fine job. Thank you so very much for having arranged the magnificent trip we took!!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Images/Yash Lakade.jpeg" alt="">
+                            <h3>Yash Lakade</h3>
+                            <p>We were very impressed with our guide's knowledge of the area. We would not hesitate to go on a new adventure with Hawaii Venture. Thanks for a great time!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </section>
+
+        <!-- Review Section Ends -->
+
+        <!-- Contact Section Starts -->
+
+        <section class="contact" id="contact">
+
+            <h1 class="heading">
+                <span>c</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>a</span>
+                <span>c</span>
+                <span>t</span>
+            </h1>
+
+            <div class="row">
+
+                <div class="image">
+                    <img src="Images/Contact.jfif" alt="">
+                </div>
+
+                <form action="connection/contact_form.php" method="post">
+
+                    <div class="inputbox">
+                        <input type="text" placeholder="name" name="Name" required>
+                        <input type="email" placeholder="email" name="Email" required>
+                    </div>
+                    <div class="inputbox">
+                        <input type="number" placeholder="number" name="Number" required>
+                        <input type="text" placeholder="subject" name="Subject" required>
+                    </div>
+                    <textarea placeholder="message" name="Message" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" class="btn" value="send message">
+                   
+                </form>
+                
+            </div>
+            
+        </section>
+
+        <!-- Contact Section Ends -->
+
+        <!-- footer section -->
+
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3> About us</h3>
+                    <p>The World Travel Guide (WTG) is the flagship digital consumer brand within the Columbus Travel Media portfolio. A comprehensive guide to the world’s best travel destinations</p>  
+                </div>
+                <div class="box">
+                    <h3> Branch Locations</h3>
+                    <a href="https://sites.google.com/view/welcometodhule"> Dhule </a>
+                    <a href="#"> Mumbai </a>
+                    <a href="#"> Delhi </a>
+                    <a href="#"> Chennai </a>  
+                </div>
+                <div class="box">
+                    <h3> Qiuck Links </h3>
+                    <a href="#home"> Home </a>
+                    <a href="#book"> Book </a>
+                    <a href="#packages"> Packages </a>
+                    <a href="#services"> Services </a>
+                    <a href="#gallery"> Gallery </a>
+                    <a href="#review"> Review </a>
+                    <a href="#contact"> Contact </a>
+                </div>
+                <div class="box">
+                    <h3> Follow Us </h3>
+                    <a href="https://in.linkedin.com/in/darshan-kotkar-2a14701b4"> Linkedin </a>
+                    <a href="https://github.com/da9156"> Git Hub </a>
+                    <a href="https://www.hackerrank.com/darshankotkar123?hr_r=1"> Hackerrank </a>
+                    <a href="https://www.instagram.com/Its_darshuu_here/"> Instagram </a>
+                    <a href="https://www.facebook.com/da9156/"> Facebook </a>
+                    
+                    
+                    
+                </div>
+
+            </div>
+
+            <h1 class="credit"> Created By <span><a hreaf="http://www.darshankotkar.me"> www.darshankotkar.me </a></span> | all rights reserved! | </h1>
+
+        </section>
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+        <!-- custom js file link -->
+        <script src="script.js"></script>
+    </body>    
+</html>
